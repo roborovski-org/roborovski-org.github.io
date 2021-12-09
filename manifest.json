@@ -1,8 +1,8 @@
 {
   "name": "ROBOROVSKI",
   "short_name": "ROBOROVSKI",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+  "theme_color": "#090d14",
+  "background_color": "#090d14",
   "display": "standalone",
   "icons": [
     {
