@@ -1,0 +1,32 @@
+/*CORE STYLES*/
+@import "../mixins/mixins.sass"
+
+html
+  font-size: 62.5%
+
+body
+  // font-family: $base-font-family
+  // background-image: linear-gradient(to bottom, $socket-d, $surface-d-bg-d)
+  background-color: $socket-d
+  background-size: cover
+  // background-repeat: no-repeat
+  background-position: 0 0
+  color: $text-d-60
+  // overflow-x: hidden
+  position: relative
+  font-variant: normal
+  font-feature-settings: normal
+  margin: 0
+  font-family: Montserrat, sans-serif
+  @include font(1.8rem, 1.78em, 500)
+  transition: background-color .1s ease-out
+  overflow-x: hidden
+
+
+  
+//transition show images
+img.lazy
+  opacity: 0
+  +transition
+  &[lazy=loaded]
+    opacity: 1
