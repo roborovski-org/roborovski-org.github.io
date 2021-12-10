@@ -28,9 +28,7 @@
               data-delay="200">
             <img v-lazy="'src/assets/images/roadmap/roadmap1.png'" class="img-responsive" width="760" height="340">
           </div>
-          <div class="roadmap__img roadmap__img--2"
-              data-aos="fade-right"
-              data-aos-easing="ease-in-sine">
+          <div class="roadmap__img roadmap__img--2">
             <img v-lazy="'src/assets/images/roadmap/roadmap2.png'" data-srcset="src/assets/images/roadmap/roadmap2@2x.png 2x" class="img-responsive" width="760" height="420">
           </div>
         </div>
