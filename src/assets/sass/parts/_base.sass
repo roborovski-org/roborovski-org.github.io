@@ -85,3 +85,9 @@ body
     @include font(3rem, 1.2em, bold)
     margin-bottom: 2.4rem
     font-family: Montserrat
+  a
+    color: $primary
+    text-decoration: underline
+    +transition
+    &:hover
+      color: $primary-t

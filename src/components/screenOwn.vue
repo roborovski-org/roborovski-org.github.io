@@ -52,8 +52,8 @@
         </div>
         <div class="cards__pos cards__pos--4" data-aos="flip-down">
           <LCard 
-            poster="src/assets/images/nft/nft-1.png"
-            posterhd="src/assets/images/nft/nft-1@2x.png 2x"
+            poster="src/assets/images/nft/nft-4.png"
+            posterhd="src/assets/images/nft/nft-4@2x.png 2x"
             name="Roborovski #9542"
             summ="2.01"
             icon1="1"
@@ -67,8 +67,8 @@
         </div>
         <div class="cards__pos cards__pos--5" data-aos="flip-up">
           <LCard 
-            poster="src/assets/images/nft/nft-2.png"
-            posterhd="src/assets/images/nft/nft-2@2x.png 2x"
+            poster="src/assets/images/nft/nft-5.png"
+            posterhd="src/assets/images/nft/nft-5@2x.png 2x"
             name="Roborovski #8372"
             summ="1.44"
             icon1="2"
@@ -77,8 +77,8 @@
         </div>
         <div class="cards__pos cards__pos--6" data-aos="flip-down">
           <LCard 
-            poster="src/assets/images/nft/nft-3.png"
-            posterhd="src/assets/images/nft/nft-3@2x.png 2x"
+            poster="src/assets/images/nft/nft-6.png"
+            posterhd="src/assets/images/nft/nft-6@2x.png 2x"
             name="Roborovski #1132"
             summ="1.83"
             icon1="3"

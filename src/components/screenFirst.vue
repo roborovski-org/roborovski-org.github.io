@@ -64,13 +64,13 @@
               <img v-show="$screen.width <= 991" v-lazy="'src/assets/images/badge/badge-award.svg'" class="lazy">
 
               <div class="howtobuy">
-                <span><i>How to Buy?</i></span>
+                <router-link to="/howtobuy"><span><i>How to Buy?</i></span></router-link>
               </div>
             </div>
             <div class="fcards">
               <LCard 
-                poster="src/assets/images/nft/nft-1.png"
-                posterhd="src/assets/images/nft/nft-1@2x.png 2x"
+                poster="src/assets/images/nft/nft-0.png"
+                posterhd="src/assets/images/nft/nft-0@2x.png 2x"
                 name="Roborovski #3832"
                 summ="1.76"
                 icon1="1"
@@ -311,7 +311,7 @@ export default {
           max-width: 7.2rem
           min-width: 7.2rem
           margin: 0 0 0
-        span
+        a
           display: flex
           background-image: linear-gradient(to bottom, $card-d-2, $card-d-2), linear-gradient(135deg, $secondary, $primary 100%)
           border-radius: 50%

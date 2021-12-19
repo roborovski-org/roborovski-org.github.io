@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import App from './App.vue'
 import AppHome from './AppHome.vue'
 import AppText from './AppText.vue'
+import AppHotToBuy from './AppHotToBuy.vue'
 // import Meta from 'vue-meta'
 
 import VueLazyload from 'vue-lazyload'

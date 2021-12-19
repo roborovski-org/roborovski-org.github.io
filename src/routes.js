@@ -4,6 +4,7 @@ import VueMeta from 'vue-meta';
 
 import AppText from './AppText.vue';
 import AppHome from './AppHome.vue';
+import AppHotToBuy from './AppHotToBuy.vue';
 
 //Meta Data
 Vue.use(VueMeta)
@@ -18,6 +19,11 @@ const routes = [
       path: '/terms',
       name: 'Terms',
       component: AppText
+  },
+  {
+      path: '/howtobuy',
+      name: 'HowToBuy',
+      component: AppHotToBuy
   }
 ];
 
