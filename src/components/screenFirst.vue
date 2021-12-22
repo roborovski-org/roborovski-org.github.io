@@ -20,7 +20,7 @@
      
             <div class="main__countdown">
               <div class="main__countdown-item">
-                <flipCountdown deadline="2022-01-24 00:00:00"></flipCountdown>
+                <flipCountdown deadline="2022-02-08 00:00:00"></flipCountdown>
               </div>
               <div class="main__mint" @click = "showPopup()">
                 <div class="main__mint-i">
