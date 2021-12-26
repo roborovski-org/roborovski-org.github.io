@@ -6,16 +6,16 @@
           <div class="own__img">
             <img v-lazy="'src/assets/images/bg/bg-nft.png'" data-srcset="src/assets/images/bg/bg-nft@2x.png 2x" width="872" height="500" class="img-responsive lazy">
             
-            <div v-show="$screen.width <= 991" class="cards__pos-button" @click = "showPopup()">
+            <!-- <div v-show="$screen.width <= 991" class="cards__pos-button" @click = "showPopup()">
               <button class="btn-round">
                 <span>Mint now</span>
               </button>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="col-lg-4 col-xl-3 offset-xl-1">
           <div class="pre-title"><span>nft collection</span></div>
-          <h2 class="title">Make <span>Roborovski</span> Your Ownr</h2>
+          <h2 class="title">Make <span>Roborovski</span> Your Own</h2>
           <p class="desc">Each Roborovski NFT is a piece of art that tells an immersive and meaningful story of its own.</p>
         </div>
       </div>
@@ -59,11 +59,11 @@
             icon1="1"
             icon2="4"
           />
-          <div v-show="$screen.width > 991" class="cards__pos-button">
+          <!-- <div v-show="$screen.width > 991" class="cards__pos-button">
             <button class="btn-round" @click = "showPopup()">
               <span>Mint now</span>
             </button>
-          </div>
+          </div> -->
         </div>
         <div class="cards__pos cards__pos--5" data-aos="flip-up">
           <LCard 
@@ -117,6 +117,9 @@ export default {
     .desc
       +lg
         margin: 0 0 3.2rem
+    .card
+      &:hover
+        z-index: 600
   .own
     &__img
       +lg

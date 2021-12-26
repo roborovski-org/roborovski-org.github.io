@@ -116,6 +116,8 @@ export default {
     padding: .4rem
     border-radius: 12px
     max-width: 20rem
+    // &:hover
+    //   z-index: 500
     &-overlay
       border-radius: 12px
       -webkit-backdrop-filter: blur(40px)
@@ -131,6 +133,8 @@ export default {
     &-item
       position: relative
       z-index: 200
+      &:hover
+        z-index: 500
       &__icon
         display: flex
         width: 2rem
@@ -156,8 +160,10 @@ export default {
         img
           +transition
           border-radius: .4rem
+          position: relative
+          z-index: 100
           &:hover
-            transform: scale(1.4)
+            transform: scale(1.8)
       &__info
         padding: .8rem .8rem .8rem 1.2rem
         background-color: rgba(40, 42, 46, 0.8)

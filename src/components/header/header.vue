@@ -30,6 +30,7 @@
               <a href="#" v-scroll-to="'#roadmap'" class="nav-link">Roadmap</a>
               <a href="#" v-scroll-to="'#collection'" class="nav-link">Collection</a>
               <a href="#" v-scroll-to="'#team'" class="nav-link">Team</a>
+              <router-link to="/howtobuy" class="nav-link">How to Buy?</router-link>
             </nav>
           </div>
           <div class="col-12 col-lg-auto">
@@ -114,7 +115,7 @@ export default {
 @import "../../assets/sass/mixins/mixins.sass"
 
 .mobile__menu
-  position: absolute
+  position: fixed
   top: 0 
   left: 0 
   right: 0 
@@ -138,7 +139,7 @@ export default {
       background-color: $text-d-2
 
 .header
-  position: absolute
+  position: fixed
   top: 0
   left: 0
   right: 0
