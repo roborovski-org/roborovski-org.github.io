@@ -132,9 +132,9 @@ export default {
       bottom: 0
     &-item
       position: relative
-      z-index: 200
+      z-index: 2
       &:hover
-        z-index: 500
+        // z-index: 500
       &__icon
         display: flex
         width: 2rem
@@ -155,15 +155,18 @@ export default {
           background-image: linear-gradient(to bottom, #ade9ff, #ac99e1)
         &--6
           background-image: linear-gradient(to bottom, #faffad 1%, #ffcbad)
+      
       &__image
+        // position: relative
+        // z-index: 100
         // margin-bottom: .4rem
         img
           +transition
           border-radius: .4rem
           position: relative
-          z-index: 100
           &:hover
             transform: scale(1.8)
+            z-index: 600
       &__info
         padding: .8rem .8rem .8rem 1.2rem
         background-color: rgba(40, 42, 46, 0.8)

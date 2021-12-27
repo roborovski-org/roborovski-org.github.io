@@ -17,6 +17,8 @@
               el: '#team',
               onDone: closeMobileMenu
             }" class="mobile__menu-link">Team</a>
+            
+            <router-link to="/howtobuy" class="mobile__menu-link">How to Buy?</router-link>
           </div>
         </div>
       </div>
@@ -115,7 +117,8 @@ export default {
 @import "../../assets/sass/mixins/mixins.sass"
 
 .mobile__menu
-  position: fixed
+  // position: fixed
+  position: absolute
   top: 0 
   left: 0 
   right: 0 
@@ -139,7 +142,8 @@ export default {
       background-color: $text-d-2
 
 .header
-  position: fixed
+  // position: fixed
+  position: absolute
   top: 0
   left: 0
   right: 0

@@ -149,6 +149,9 @@ export default {
       margin-top: 0
     &__pos
       padding: 0 1.5rem
+      &:hover
+        position: relative
+        z-index: 10
       +xl
         padding: 0 .8rem
       +lg
