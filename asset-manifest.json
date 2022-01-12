@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "./static/css/main.87f3a2e0.chunk.css",
-    "main.js": "./static/js/main.ea85980b.chunk.js",
-    "main.js.map": "./static/js/main.ea85980b.chunk.js.map",
+    "main.js": "./static/js/main.baf8fb39.chunk.js",
+    "main.js.map": "./static/js/main.baf8fb39.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.5e9a050b.js",
     "runtime-main.js.map": "./static/js/runtime-main.5e9a050b.js.map",
     "static/css/2.7a5f30b2.chunk.css": "./static/css/2.7a5f30b2.chunk.css",
@@ -19,7 +19,7 @@
     "static/css/main.87f3a2e0.chunk.css.map": "./static/css/main.87f3a2e0.chunk.css.map",
     "static/js/2.90b12228.chunk.js.LICENSE.txt": "./static/js/2.90b12228.chunk.js.LICENSE.txt",
     "static/js/3.2c211676.chunk.js.LICENSE.txt": "./static/js/3.2c211676.chunk.js.LICENSE.txt",
-    "static/js/main.ea85980b.chunk.js.LICENSE.txt": "./static/js/main.ea85980b.chunk.js.LICENSE.txt",
+    "static/js/main.baf8fb39.chunk.js.LICENSE.txt": "./static/js/main.baf8fb39.chunk.js.LICENSE.txt",
     "static/media/1.png": "./static/media/1.330faff6.png",
     "static/media/1@2x.png": "./static/media/1@2x.448b7939.png",
     "static/media/2.png": "./static/media/2.6ff62b99.png",
@@ -28,11 +28,11 @@
     "static/media/ScreenBenefits.scss": "./static/media/bg-benefits@2x.8f2dbcf9.jpg",
     "static/media/ScreenFirst.scss": "./static/media/bg-main@2x.407d897d.jpg",
     "static/media/bg-nft@2x.png": "./static/media/bg-nft@2x.c05aca09.png",
-    "static/media/nft-0@2x.png": "./static/media/nft-0@2x.76f7f670.png",
-    "static/media/nft-1@2x.png": "./static/media/nft-1@2x.079588d7.png",
-    "static/media/nft-2@2x.png": "./static/media/nft-2@2x.bc05e369.png",
+    "static/media/nft-0@2x.png": "./static/media/nft-0@2x.08d0cdf4.png",
+    "static/media/nft-1@2x.png": "./static/media/nft-1@2x.1a8f0fa6.png",
+    "static/media/nft-2@2x.png": "./static/media/nft-2@2x.2151bf96.png",
     "static/media/nft-3@2x.png": "./static/media/nft-3@2x.c465de68.png",
-    "static/media/nft-4@2x.png": "./static/media/nft-4@2x.5913c8cc.png",
+    "static/media/nft-4@2x.png": "./static/media/nft-4@2x.b55222a9.png",
     "static/media/nft-5@2x.png": "./static/media/nft-5@2x.e7ba41f7.png",
     "static/media/nft-6@2x.png": "./static/media/nft-6@2x.e4114776.png",
     "static/media/photo-1@2x.png": "./static/media/photo-1@2x.d3cd54e1.png",
@@ -65,6 +65,6 @@
     "static/css/2.7a5f30b2.chunk.css",
     "static/js/2.90b12228.chunk.js",
     "static/css/main.87f3a2e0.chunk.css",
-    "static/js/main.ea85980b.chunk.js"
+    "static/js/main.baf8fb39.chunk.js"
   ]
 }
